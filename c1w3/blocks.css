@@ -1,0 +1,59 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+  #one{
+    width:10em;
+    border: 5px orange solid;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #two{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width:10em;
+    border: 5px yellow solid;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #three{
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    /*text-align: right;*/
+    width:10em;
+    border: 5px green solid;
+    padding: 3px;
+    margin: 0;
+  }
+
+  #four{
+    right: 10px;
+    bottom: 5px;
+    position: absolute;
+    /*text-align: right;*/
+    width:10em;
+    border: 5px blue solid;
+    padding: 3px;
+    margin: 0;
+  }
+  #link{
+    position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
+  }
+  a:visited{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+  }
+  a:link{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+  }
